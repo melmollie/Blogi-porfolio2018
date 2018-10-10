@@ -323,13 +323,13 @@ nav a h2:hover {
 .container {
     grid-area: slideshow;
 }
-
+/*
 #slider {
     background: #000;
     border: 5px solid #eaeaea;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    height: 320px;
-    width: 200px;
+    height: 500px;
+    width: 700px;
     margin: 40px auto 0;
     overflow: visible;
     position: relative;
@@ -337,7 +337,7 @@ nav a h2:hover {
 
 #mask {
     overflow: hidden;
-    height: 320px;
+    height: 500px;
 }
 
 #slider ul {
@@ -347,10 +347,10 @@ nav a h2:hover {
 }
 
 #slider li {
-    width: 200px;
-    height: 320px;
+    width: 700px;
+    height: 500px;
     position: absolute;
-    top: -325px;
+    top: -505px;
     list-style: none;
 }
 
@@ -375,68 +375,69 @@ nav a h2:hover {
 }
 
 img {
-    height: 320px;
+    height: 500px;
+    width: 700px;
 }
 
 @keyframes cycle {
     0% {top:0px;}
     4% {top:0px;}
     16% {top:0px; opacity: 1; z-index:0;}
-    20% {top: 325px; opacity: 0; z-index:0;}
-    21% {top: -325px; opacity: 0; z-index:-1;}
-    92% {top: -325px; opacity: 0; z-index:0;}
-    96% {top: -325px; opacity: 0;}
+    20% {top: 505px; opacity: 0; z-index:0;}
+    21% {top: -505px; opacity: 0; z-index:-1;}
+    92% {top: -505px; opacity: 0; z-index:0;}
+    96% {top: -505px; opacity: 0;}
     100% {top: 0px; opacity: 1;}
 }
 
 @keyframes cycletwo {
-    0% {top:-325px; opacity: 0;}
-    16% {top:-325px; opacity: 0;}
+    0% {top:-505px; opacity: 0;}
+    16% {top:-505px; opacity: 0;}
     20% {top: 0px; opacity: 1;}
     24% {top: 0px; opacity: 1;}
     36% {top: 0px; opacity: 1; z-index:0;}
-    40% {top: 325px; opacity: 0; z-index:0;}
-    41% {top: -325px; opacity: 0; z-index:-1;}
-    100% {top: -325px; opacity: 0; z-index:-1;}
+    40% {top: 505px; opacity: 0; z-index:0;}
+    41% {top: -505px; opacity: 0; z-index:-1;}
+    100% {top: -505px; opacity: 0; z-index:-1;}
 }
 
 @keyframes cyclethree {
-    0% {top:-325px; opacity: 0;}
-    36% {top:-325px; opacity: 0;}
+    0% {top:-505px; opacity: 0;}
+    36% {top:-505px; opacity: 0;}
     40% {top: 0px; opacity: 1;}
     44% {top: 0px; opacity: 1;}
     56% {top: 0px; opacity: 1;}
-    60% {top: 325px; opacity: 0; z-index:0;}
-    61% {top: -325px; opacity: 0; z-index:-1;}
-    100% {top: -325px; opacity: 0; z-index:-1;}
+    60% {top: 505px; opacity: 0; z-index:0;}
+    61% {top: -505px; opacity: 0; z-index:-1;}
+    100% {top: -505px; opacity: 0; z-index:-1;}
 }
 
 @keyframes cyclefour {
-    0% {top:-325px; opacity: 0;}
-    56% {top:-325px; opacity: 0;}
+    0% {top:-505px; opacity: 0;}
+    56% {top:-505px; opacity: 0;}
     60% {top: 0px; opacity: 1;}
     64% {top: 0px; opacity: 1;}
     76% {top: 0px; opacity: 1; z-index:0;}
-    80% {top: 325px; opacity: 0; z-index:0;}
-    81% {top: -325px; opacity: 0; z-index:-1;}
-    100% {top: -325px; opacity: 0; z-index:-1;}
+    80% {top: 505px; opacity: 0; z-index:0;}
+    81% {top: -505px; opacity: 0; z-index:-1;}
+    100% {top: -505px; opacity: 0; z-index:-1;}
 }
 
 @keyframes cyclefive {
-    0% {top:-325px; opacity: 0;}
-    76% {top:-325px; opacity: 0;}
+    0% {top:-505px; opacity: 0;}
+    76% {top:-505px; opacity: 0;}
     80% {top: 0px; opacity: 1;}
     84% {top: 0px; opacity: 1;}
     96% {top: 0px; opacity: 1; z-index:0;}
-    100% {top: 325px; opacity: 0; z-index:0;}
+    100% {top: 505px; opacity: 0; z-index:0;}
 }
 
 .progress-bar {
     position: relative;
     top:-5px;
-    width:680px;
+    width:700px;
     height: 5px;
-    background: #FFF;
+    background: #000;
     animation: fullexpand 25s ease-out infinite;
 }
 
@@ -453,14 +454,14 @@ img {
     width: 200px;
     height: 60px;
     position: relative;
-    bottom: 75px;
+    bottom: 100px;
     left: -200px;
     transition: all 0.3s ease-in-out;
 }
 
 #slider .tooltip h1 {
     color: #FFF;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 60px;
     padding: 0 0 0 10px;
@@ -479,7 +480,7 @@ img {
     animation-play-state: paused;
 }
 
-
+*/
 .project-content {
     grid-area: main;
     padding: 20px 50px;
