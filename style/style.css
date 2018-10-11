@@ -251,8 +251,11 @@ nav a h2:hover {
 } 
 
 .thumbnail img.portrait {
-    width: 300%;
+    width:200%;
     height: auto;
+    position: relative;
+    top:-10px;
+    left: -50px;
 }
 
 /* Portfolio Section End */
